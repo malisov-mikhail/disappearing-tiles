@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Test page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+  </head>
+  <body>
+    <h1>* Disappearing tiles *</h1>
+    <br /><br />
+    <div id="wrapper">
+      <hiding-tile class="tile" id="tile1"></hiding-tile>
+      <hiding-tile class="tile" id="tile2"></hiding-tile>
+      <hiding-tile class="tile" id="tile3"></hiding-tile>
+      <hiding-tile class="tile" id="tile4"></hiding-tile>
+      <hiding-tile class="tile" id="tile5"></hiding-tile>
+      <hiding-tile class="tile" id="tile6"></hiding-tile>
+      <hiding-tile class="tile" id="tile7"></hiding-tile>
+      <hiding-tile class="tile" id="tile8"></hiding-tile>
+      <hiding-tile class="tile" id="tile9"></hiding-tile>
+      <button id="addTile">+</button>
+    </div>
+    <div id="counter"></div>
+    <label class="switch">
+      <input type="checkbox" id="toggle" />
+      <span class="slider round"></span>
+    </label>
+    <div class="switchtext">Remove multiple tiles</div>
+    <br /><button id="reset">Reset</button>
+    <div id="description">
+      Expected behavior:
+      <ul>
+        <li>
+          The tiles disappear when you click on them, and re-appear when you
+          click again.
+        </li>
+        <li>The slider enables removing multiple tiles at a time.</li>
+        <li>
+          Each tile counts the number of clicks on it, with a separate counter
+          below for total clicks.
+        </li>
+        <li>You can add more tiles.</li>
+      </ul>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
