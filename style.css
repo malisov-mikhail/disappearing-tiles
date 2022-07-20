@@ -41,7 +41,7 @@ button:hover {
 }
 
 #reset {
-  background-color: #444;
+  background-color: rgb(51, 51, 51);
   color: white;
   border-radius: 5px;
   padding: 10px;
@@ -80,7 +80,7 @@ button:hover {
 }
 
 .tile {
-  background-color: #444;
+  background-color: rgb(51, 51, 51);
   color: white;
   border-radius: 5px;
   padding: 30px;
@@ -93,7 +93,6 @@ button:hover {
   width: 40px;
   text-align: center;
   box-shadow: 2px 2px 2px rgba(24, 24, 24, 0.875);
-  background: url(texture.jpg)
 }
 
 .tile:hover {
